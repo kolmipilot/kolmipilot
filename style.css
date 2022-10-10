@@ -11,6 +11,8 @@ body {
     margin-bottom: auto;
     margin-right: auto;
     margin-right: auto;
+
+ 
     }
 
     h1{
@@ -33,7 +35,7 @@ body {
 
     #links{
         grid-column: 1;
-        grid-row: 2/4;
+        grid-row: 2/5;
         padding: 10px;
         text-align: center;
         border: 2px solid black; border-radius: 5px 10px 5px 10px; 
