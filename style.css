@@ -1,0 +1,55 @@
+
+body {
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+    grid-template-rows: 0,5fr 1fr 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    padding: 10px;
+    background-image: url(image/prism.png);
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-right: auto;
+    }
+
+    h1{
+        grid-column: 2;
+        grid-row: 1;
+        text-align: center;
+        color: rgb(224, 231, 127);
+    }
+
+    h2{
+        grid-column: 2;
+        grid-row: 2/4;
+        padding: 10px;
+        text-align: center;
+        border: 1px solid black; border-radius: 5px 10px 5px 10px; 
+        color: rgb(201, 200, 200);
+    }
+
+   
+
+    #links{
+        grid-column: 1;
+        grid-row: 2/4;
+        padding: 10px;
+        text-align: center;
+        border: 2px solid black; border-radius: 5px 10px 5px 10px; 
+        font-size: 20px;
+        color: rgb(201, 200, 200);
+        
+    }
+
+    a{
+        color:blue;
+        font-size: 110%;
+        
+        
+    }
+    a:hover{
+        color:aqua;
+        font-size: 105%;
+    }
+
