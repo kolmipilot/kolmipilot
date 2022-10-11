@@ -4,7 +4,7 @@
         background-image: url(image/prism.png);
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 0.2fr 2fr 1fr;
+        grid-template-rows: 0.2fr 2fr 150px;
         grid-column-gap: 0px;
         grid-row-gap: 0px;
         padding: 10px;
@@ -81,7 +81,7 @@ body {
         padding: 10px;
         text-align: center;
         border: 2px solid black; border-radius: 5px 10px 5px 10px; 
-        font-size: 20px;
+        font-size: 30px;
         color: rgb(201, 200, 200);
         
         
@@ -95,7 +95,7 @@ body {
     }
     a:hover{
         color:aqua;
-        font-size: 105%;
+        font-size: 115%;
     }
 
 }
