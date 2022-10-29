@@ -42,21 +42,26 @@
 }
 @media (min-width: 600px) {
 body {
+
+    
+   
     display: grid;
-    grid-template-columns: 0.2fr 1fr;
-    grid-template-rows: 0,5fr 1fr 1fr;
+    grid-template-columns: 0.2fr 1fr; 
+     grid-template-rows: 0.5fr 1fr 1fr 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+    grid-template-areas: 
+    ". ."
+    ". ."
+    ". ."
+    ". .";
     
     background-image: url(image/prism.png);
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-right: auto;
-    margin-right: auto;
-    
+   margin-top: 7%;
+}
 
  
-    }
+    
 
     h1{
         grid-column: 2;
@@ -67,11 +72,12 @@ body {
 
     h2{
         grid-column: 2;
-        grid-row: 2/4;
+        grid-row: 2/5;
         padding: 10px;
         text-align: center;
         border: 1px solid black; border-radius: 5px 10px 5px 10px; 
         color: rgb(201, 200, 200);
+      
         
     }
 
@@ -79,12 +85,13 @@ body {
 
     #links{
         grid-column: 1;
-        grid-row: 2/3;
+        grid-row: 2/5;
         padding: 10px;
         text-align: center;
         border: 2px solid black; border-radius: 5px 10px 5px 10px; 
         font-size: 30px;
         color: rgb(201, 200, 200);
+        
         
         
     }
