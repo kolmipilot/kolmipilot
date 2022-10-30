@@ -1,6 +1,8 @@
 @media (min-width: 100px) {
 
-    body{
+    body{ background-image: url(image/prism.png);
+    }
+    #container{
         background-image: url(image/prism.png);
         display: grid;
         grid-template-columns: 1fr;
@@ -41,8 +43,10 @@
     }
 }
 @media (min-width: 600px) {
-body {
-
+    body{ background-image: url(image/prism.png);
+        
+    }
+    #container{
     
    
     display: grid;
@@ -55,10 +59,12 @@ body {
     ". ."
     ". ."
     ". .";
-    
-    background-image: url(image/prism.png);
-   margin-top: 7%;
-}
+    height: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+   
+    }
+
 
  
     
@@ -77,6 +83,7 @@ body {
         text-align: center;
         border: 1px solid black; border-radius: 5px 10px 5px 10px; 
         color: rgb(201, 200, 200);
+        height:70vh;
       
         
     }
