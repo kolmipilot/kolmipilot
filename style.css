@@ -75,18 +75,18 @@
         text-align: center;
         color: rgb(224, 231, 127);
     }
-
-    h2{
+    #tekst{
         grid-column: 2;
         grid-row: 2/5;
         padding: 10px;
         text-align: center;
         border: 1px solid black; border-radius: 5px 10px 5px 10px; 
-        color: rgb(201, 200, 200);
         height:60vh;
-      
-        
     }
+   h2{
+    text-align: center;
+    border: none;
+   }
 
    
 
@@ -96,11 +96,16 @@
         padding: 10px;
         text-align: center;
         border: 2px solid black; border-radius: 5px 10px 5px 10px; 
+        
+        
+        
+        
+    }
+    #zawartosc{
+        text-align: center;
+        height: 100%;
         font-size: 30px;
         color: rgb(201, 200, 200);
-        
-        
-        
     }
 
     a{
